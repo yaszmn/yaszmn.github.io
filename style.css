@@ -5,18 +5,26 @@
   
   
   h1 {
-    font-size: 30px;
+    font-family:'Roboto', sans-serif;
+    color: #FF9781;
     text-align: center;
-    top: 20%;
+    line-height:30px;
+    font-size: 50px;
     transform: translate(0%, 0%);
-    margin-top:16px;
-    margin-bottom:16px;
-    border-style: solid;
-    border-color: #e59292;
-    background-color: #f7cfcf;
-    box-shadow: 10px 10px #e59292;
+    text-shadow: 2px 2px #9AA6D8;
   }
 
+  .header:hover {
+      transition: all 500ms ease-in-out;
+  }
+
+  .header:hover .title span {
+      display: none;
+  }
+
+  .header:hover .title:after {
+      content: "22/f/syd";
+  }
 
   .about:hover {
       transition: all 500ms ease-in-out;
@@ -57,23 +65,16 @@
   h2{
     color: #FF9781;
     text-align: center;
-    line-height:20px;
-    font-size: 16px;
-  }
-
-  .projects-header{
-    background-color: #f7cfcf;
-    padding:12px 12px!important;
-    margin-top:16px;
-    margin-bottom:16px;
-    border-style: solid;
-    border-color: #e59292;
-    box-shadow: 10px 10px #e59292;
+    line-height: 10px;
+    font-size: 12px;
   }
 
   h3{
-    line-height:0px;
-    color: #2e327b;
+    color: #FF9781;
+    text-align: center;
+    line-height:20px;
+    font-size: 16px;
+    margin: 50px auto;
   }
   
   p, li {
@@ -83,7 +84,7 @@
   
   
   html {
-    background-color: #ffdfda;
+    background-color: #E1E4F1;
     width:100%;
     height:100%;
   }
@@ -135,17 +136,6 @@
     text-decoration: none;
     display: inline-block;
     font-size: 14px;
-  }
-
-  .about, .projects, .contact {
-    background-color: transparent;
-    width: 600px;
-    height: 200px;
-    top: 50%;
-    transform: translate(-20%, 50%);
-    animation: opac 3s;
-    float: left;
-    width: 33.33%;
   }
   
   @keyframes 
