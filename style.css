@@ -8,62 +8,31 @@
     font-family:'Roboto', sans-serif;
     color: #FF9781;
     text-align: center;
-    line-height:30px;
-    font-size: 50px;
-    transform: translate(0%, 0%);
-    text-shadow: 2px 2px #9AA6D8;
+    line-height:60px;
+    font-size: 75px;
+    text-shadow: 2px 2px 2px #9AA6D8
   }
 
   .header:hover {
       transition: all 500ms ease-in-out;
+      font-size: 30px;
+      text-shadow: 2px 2px #9AA6D8;
   }
 
   .header:hover .title span {
       display: none;
+      font-size: 30px;
+      text-shadow: 2px 2px #9AA6D8;
   }
 
   .header:hover .title:after {
-      content: "22/f/syd";
-  }
-
-  .about:hover {
-      transition: all 500ms ease-in-out;
-  }
-
-  .about:hover .title span {
-      display: none;
-  }
-
-  .about:hover .title:after {
-      content: "ABOUT";
-  }
-
-  .portfolio:hover {
-      transition: all 500ms ease-in-out;
-  }
-
-  .portfolio:hover .title span {
-      display: none;
-  }
-
-  .portfolio:hover .title:after {
-      content: "PORTFOLIO";
-  }
-
-  .socials:hover {
-      transition: all 500ms ease-in-out;
-  }
-
-  .socials:hover .title span {
-      display: none;
-  }
-
-  .socials:hover .title:after {
-      content: "SOCIALS";
+      content: "⋆ per aspera ad astra ⋆";
+      font-size: 30px;
+      text-shadow: 2px 2px #9AA6D8;
   }
 
   h2{
-    color: #FF9781;
+    color: #9AA6D8;
     text-align: center;
     line-height: 10px;
     font-size: 12px;
